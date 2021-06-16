@@ -1,0 +1,21 @@
+Package: BSgenome.Hsapiens.UCSC.hg38.dbSNP151.minor
+Title: Full genome sequences for Homo sapiens (UCSC version hg38, based on GRCh38.p12) with injected minor alleles (dbSNP151)
+Description: Full genome sequences for Homo sapiens (Human) as provided by UCSC (hg38, based on GRCh38.p12) with minor alleles injected from dbSNP151, and stored in Biostrings objects. Full genome sequences for Homo sapiens (Human) as provided by UCSC (hg38, based on GRCh38.p12) with minor alleles injected from dbSNP151, and stored in Biostrings objects. Only common single nucleotide variants (SNVs) with at least one alternate allele with frequency greater than 0.01 were considered. For SNVs with more than 1 alternate allele, the most frequent allele was chosen as the minor allele to be injected into the reference genome.
+Version: 0.0.9999
+Author: Jean-Philippe Fortin
+Maintainer: Jean-Philippe Fortin <fortin946@gmail.com>
+Depends: R (>= 3.5.0),
+    BSgenome (>= 1.56.0)
+Suggests:
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome.Hsapiens.UCSC.hg38.dbSNP151.major,
+    testthat
+License: CC BY-NC-ND 4.0
+organism: Homo sapiens
+common_name: Human
+provider: UCSC
+provider_version: hg38
+release_date: Dec. 2017
+release_name: Genome Reference Consortium GRCh38.p12
+source_url: https://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/latest/
+biocViews: AnnotationData, Genetics, BSgenome, Homo_sapiens
